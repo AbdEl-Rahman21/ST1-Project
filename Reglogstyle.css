@@ -52,5 +52,20 @@ button {
     cursor: pointer;/*change the shape of the cursor to pointer*/
     font-weight: bold;
 }
+.home-button {
+    position: fixed;
+    top: 30px;
+    right: 50px;
+    padding: 10px 20px;
+    background-color: #1db954;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 10%;
+    height: 5%;; /* Fixed width */
+     /* Fixed height */
+}
 
 
