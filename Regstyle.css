@@ -1,0 +1,56 @@
+body 
+{
+    height: 100vh;                /*make content fill the screen */
+    display: flex;
+    justify-content: center;     /*horizontal*/
+    align-items: center;        /*vertical*/
+    background-color: #000;  /* Black background */
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.Register_form {
+    text-align: center;
+    max-width: 350px; /*Limits the width*/
+    width: 100%; /*take the max (350)*/
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;  /*space between form and word */
+}
+
+label /* style lable beside  text box */
+{
+    display: block;/* make label 3la awl text box*/
+    text-align: left;
+    margin-bottom: 10 px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input  /* style text box */
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #121212; 
+    color: white;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #1db954; 
+    color: white;
+    border: none; /*  btl8y border */
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;/*change the shape of the cursor to pointer*/
+    font-weight: bold;
+}
+
+
