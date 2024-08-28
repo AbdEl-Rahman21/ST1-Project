@@ -23,7 +23,7 @@ function login(event) {
     let email = document.getElementById("email").value;
     let password = document.getElementById("password").value;
 
-    users.forEach(user => {
+    users.forEach((user) => {
         if(user.email == email && user.pass == password) {
             localStorage.setItem("username", user.uname);
 

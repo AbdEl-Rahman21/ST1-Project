@@ -24,7 +24,7 @@ function register(event) {
     let email = document.getElementById("email").value;
     let password = document.getElementById("password").value;
 
-    users.forEach(user => {
+    users.forEach((user) => {
         if(!/^[^@]+@[^@]+.[^@]+$/.test(email) || user.uname == uname || user.email == email || user.pass == password) {
             valid = false;
         }

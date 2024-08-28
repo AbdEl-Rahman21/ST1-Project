@@ -49,6 +49,7 @@ body, html {
     border-radius: 5%;
     background-color: rgb(20, 20, 20);
     height: 290px;
+    margin: 10px;
     justify-items: center;
 }
 
@@ -72,6 +73,37 @@ body, html {
     color: rgb(190, 190, 190);
 }
 
+#songList{
+    margin-right:10px ;
+    margin-left: 10px;
+    text-decoration: none;
+    display: flex;
+    width: fit-content;
+}
+
 .song-container:hover{
     background-color: #1db954;
+}
+
+#player-container {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;    /* Fixes the player to the bottom */
+    bottom: 0;  /* Aligns to the bottom of the page */
+    left: 0;    /* Ensures it stretches to the full width */
+    width: 25%; /* Takes up full width */
+    z-index: 1000;  /* Keeps it on top of other content */
+}
+
+#controls {
+    display: flex;
+    align-items: center;
+}
+
+#audio-player {
+    width: 100%;    /* Make sure the audio player stretches within the container */
 }
