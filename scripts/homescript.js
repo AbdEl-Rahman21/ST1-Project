@@ -1,4 +1,4 @@
-let username = localStorage.getItem("uname");
+let username = localStorage.getItem("username");
 
 if (username == null) { // Not Logged in
     const navButtons = document.querySelectorAll("li");
@@ -17,3 +17,8 @@ if (username == null) { // Not Logged in
         }
     });
 }
+
+document.getElementById("logout").addEventListener("click", () => {
+    localStorage.removeItem("username");
+    location.href = '../index.html'
+});
