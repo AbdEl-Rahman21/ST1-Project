@@ -1,0 +1,115 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #000000;
+            color: white;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        label {
+            display: inline-block;
+            width: 100px;
+        }
+      
+        input{  /* style text box */
+           
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #121212; 
+            color: white;
+        }
+        
+        button {
+            width: 10%; /* Fixed width */
+            height: 5%; /* Fixed height */
+            padding: 15px;
+            background-color: #1db954; 
+            color: white;
+            border: none;   /* btl8y border */
+            border-radius: 30px;
+            font-size: 16px;
+            cursor: pointer;    /* change the shape of the cursor to pointer */
+            font-weight: bold;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 10px;
+            background-color: #000000;
+            margin: 5px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        .home-button {
+            position: fixed;
+            top: 30px;
+            right: 50px;
+            padding: 10px 20px;
+            background-color: #1db954;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 10%; /* Fixed width */
+            height: 5%; /* Fixed height */
+        }
+        .song-container{
+            display: grid;
+            grid-row: 2;
+            grid-column: 1;
+            grid-template-rows: min-content;
+            width: fit-content;
+            border-radius: 5%;          
+            background-color: #121212;
+            justify-items: center;
+            padding-bottom: 15px;
+            
+            }
+            .song-container:hover
+            {
+                 background-color: #363636;
+            }
+            .song-img{
+                width: 220px;
+                height: auto;
+                margin: 10px;
+                border-radius:5% ;
+            }
+            .song-description{
+                font-weight: bold;
+                font-size: 1.2rem;
+                color: white;
+                font-size: larger;
+                text-decoration: none;
+                padding: 0px;
+                margin: 0px;
+            }
+            .artist-name{
+                font-size: smaller;
+                color: rgb(190, 190, 190)
+            }
+            .song-box{
+                margin-right:10px ;
+                text-decoration: none;
+                display: inline-block;
+                width: fit-content;
+            }
+            #Remove
+           {
+                  height: fit-content;
+                  width: fit-content;
+                  font-size: smaller;
+            }
+            

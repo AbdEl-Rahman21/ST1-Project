@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Manage Songs</title>
+    <link rel="stylesheet" href="Admin.css">
+    
+</head>
+<body>
+    <button class="home-button" onclick="location.href='./index.html'">Home</button>
+    <h1>Admin - Manage Songs</h1>
+    
+    <form id="addSongForm">
+        <label for="Name">name:</label>
+        <input type="text" id="Name" name="Name" required><br>
+        <label for="artist">Artist:</label>
+        <input type="text" id="artist" name="artist" required><br>
+        <label for="Song File">File:</label>
+        <input type="file" id="file" name="file" required><br>
+        <button type="submit">Add Song </button>
+    </form>
+    <h2>Current Songs</h2>
+    <ul id="songList">
+        <ul id="songList">
+            <a href="" class="song-box"><div class="song-container">
+                <img src="C:\Users\mzezo\Downloads\tul8ate.png" alt="" class="song-img">
+                <h4 class="song-description">
+                    Habibi leh
+                </h4>
+                <h3 class="artist-name">Tul8te</h3>
+             <button id="Remove" onclick="removeSong(0)">Remove</button>
+            </div>
+            </a>
+           
+         </ul>   
+    </ul>
+    
+
+</body>
+</html>
