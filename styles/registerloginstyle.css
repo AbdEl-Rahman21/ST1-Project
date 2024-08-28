@@ -2,7 +2,7 @@ body {
     height: 100vh;  /* make content fill the screen */
     display: flex;
     justify-content: center;    /* horizontal */
-    align-items: center;       /* vertical */
+    align-items: center;    /* vertical */
     background-color: #000; /* Black background */
     font-family: Arial, sans-serif;
     color: white;
@@ -28,7 +28,7 @@ label { /* style label beside text box */
     font-weight: bold;
 }
 
-input{  /* style text box */
+input {  /* style text box */
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -63,7 +63,4 @@ button {
     font-size: 16px;
     width: 10%; /* Fixed width */
     height: 5%; /* Fixed height */
-}
-.currentsongs{
-text-align: left;
 }
