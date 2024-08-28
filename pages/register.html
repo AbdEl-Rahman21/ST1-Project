@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="../styles/registerloginstyle.css">
+    <script>
+        
+        function getElements(){
+            var nameInput = document.getElementById('uname');
+            var emailInput = document.getElementById('email');
+            var pass = document.getElementById('password');
+            var name = nameInput.value;
+            var email = emailInput.value;
+            var password = pass.value;
+            console.log(`Name: ${name}, Email: ${email}, Password: ${password}`);
+        }
+    </script>
 </head>
 <body>
     <button class="home-button" onclick="location.href='../index.html'">Home</button>
@@ -25,7 +37,7 @@
                 <input type="password" id="password" name="password" required>
             </div>
             <div class="submit">
-                <button type="submit">Register</button>
+                <button type="submit", onclick="getElements()">Register</button>
             </div>
         </form>
     </div>
