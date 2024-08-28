@@ -10,31 +10,37 @@ body, html {
     font-family: Arial, sans-serif;
     background-color: black;
 }
-h1,h3{
-    color: white ;
+
+h1, h3 {
+    color: white;
 }
+
 /* Container Setup */
 .container {
     display: flex;
     height: 100%;
 }
-.head-bar{
+
+.head-bar {
     display: flex;
     align-items: center;
     height: 70px;
     width: 100%;
     background-color: rgb(14, 14, 14);
 }
-#header-img{
+
+#header-img {
     margin-right: 15px;
     height: auto;
     width: 60px;
 }
-.discription{
+
+.description {
     width: 100%;
     margin-top: 15px;
     text-align: center;
 }
+
 /* Side Menu Styling */
 .side-menu {
     width: 20%;
@@ -64,7 +70,7 @@ a {
     border-radius: 50%;
 }
 
-li{
+li {
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -95,17 +101,19 @@ a:hover {
     animation: slide-animation;
     animation-duration: 25s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out
+    animation-timing-function: ease-in-out;
 }
 
 .slide img {
     width: 100%;
     height: auto;
 }
-img{
+
+img {
     border-radius: 3%;
 }
-.music-menu{
+
+.music-menu {
     text-align: center;
     width: 20%;
     background-color: rgb(3, 3, 3);
