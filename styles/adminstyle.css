@@ -79,6 +79,7 @@ li {
     border-radius: 5%;          
     background-color: #121212;
     justify-items: center;
+    margin: 10px;
     padding-bottom: 15px;
 }
 
@@ -108,7 +109,15 @@ li {
     color: rgb(190, 190, 190);
 }
 
-#remove {
+#songList{
+    margin-right:10px ;
+    margin-left: 10px;
+    text-decoration: none;
+    display: flex;
+    width: fit-content;
+}
+
+.remove {
     height: fit-content;
     width: fit-content;
     font-size: smaller;
